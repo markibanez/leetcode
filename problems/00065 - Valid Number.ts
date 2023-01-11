@@ -29,30 +29,6 @@
 // Input: s = "."
 // Output: false
 
-// Example 4:
-// Input: s = "1E9"
-// Output: true
-
-// Example 5:
-// Input: s = "e9"
-// Output: true
-
-// Example 6:
-// Input: s = "Infinity"
-// Output: false
-
-// Example 7:
-// Input: s = "6e6.5"
-// Output: false
-
-// Example 8:
-// Input: s = "-Infinity"
-// Output: false
-
-// Example 9:
-// Input: s = "+-."
-// Output: false
-
 // Constraints:
 // 1 <= s.length <= 20
 // s consists of only English letters (both uppercase and lowercase), digits (0-9), plus '+', minus '-', or dot '.'.
@@ -78,9 +54,3 @@ function isNumber(s: string): boolean {
 console.log(isNumber('0')); // true
 console.log(isNumber('e')); // false
 console.log(isNumber('.')); // false
-console.log(isNumber('1E9')); // true
-console.log(isNumber('e9')); // true
-console.log(isNumber('Infinity')); // false
-console.log(isNumber('6e6.5')); // false
-console.log(isNumber('-Infinity')); // false
-console.log(isNumber('+-.')); // false
