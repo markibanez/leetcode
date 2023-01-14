@@ -36,10 +36,12 @@ function setZeroes(matrix: number[][]): void {
 };
 
 // test cases
-const tmatrix1 = [[1, 1, 1], [1, 0, 1], [1, 1, 1]];
-setZeroes(tmatrix1);
-console.log(tmatrix1); // [[1, 0, 1], [0, 0, 0], [1, 0, 1]]
+// @ts-ignore
+const matrix1 = [[1, 1, 1], [1, 0, 1], [1, 1, 1]];
+setZeroes(matrix1);
+console.log(matrix1); // [[1, 0, 1], [0, 0, 0], [1, 0, 1]]
 
-const tmatrix2 = [[0, 1, 2, 0], [3, 4, 5, 2], [1, 3, 1, 5]];
-setZeroes(tmatrix2);
-console.log(tmatrix2); // [[0, 0, 0, 0], [0, 4, 5, 0], [0, 3, 1, 0]]
+// @ts-ignore
+const matrix2 = [[0, 1, 2, 0], [3, 4, 5, 2], [1, 3, 1, 5]];
+setZeroes(matrix2);
+console.log(matrix2); // [[0, 0, 0, 0], [0, 4, 5, 0], [0, 3, 1, 0]]
