@@ -24,6 +24,7 @@ class ListNode {
     }
 }
 
+// @ts-ignore
 function deleteDuplicates(head: ListNode | null): ListNode | null {
     if (!head) return head;
     let dummy = new ListNode(0, head);
@@ -43,8 +44,10 @@ function deleteDuplicates(head: ListNode | null): ListNode | null {
 };
 
 // test cases
+// @ts-ignore
 const head1 = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(3, new ListNode(4, new ListNode(4, new ListNode(5)))))));
 console.log(deleteDuplicates(head1)); // [1,2,5]
 
+// @ts-ignore
 const head2 = new ListNode(1, new ListNode(1, new ListNode(1, new ListNode(2, new ListNode(3)))));
 console.log(deleteDuplicates(head2)); // [2,3]
