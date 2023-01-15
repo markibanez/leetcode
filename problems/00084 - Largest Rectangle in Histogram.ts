@@ -14,6 +14,7 @@
 // 1 <= heights.length <= 105
 // 0 <= heights[i] <= 104
 
+// @ts-ignore
 function largestRectangleArea(heights: number[]): number {
     let stack: number[] = [];
     let maxArea = 0;
