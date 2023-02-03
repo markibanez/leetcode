@@ -17,6 +17,7 @@
 // 1 <= prices.length <= 10^5
 // 0 <= prices[i] <= 10^4
 
+// @ts-ignore
 function maxProfit(prices: number[]): number {
     let min = prices[0];
     let max = 0;
