@@ -33,7 +33,6 @@
 // 1 <= tokens.length <= 10^4
 // tokens[i] is either an operator: "+", "-", "*", or "/", or an integer in the range [-200, 200].
 
-// make function typesafe
 function evalRPN(tokens: string[]): number {
     const isOperator = (token: string) => {
         return token === '+' || token === '-' || token === '*' || token === '/';
