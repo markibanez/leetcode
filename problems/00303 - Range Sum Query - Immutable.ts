@@ -24,6 +24,7 @@
 // 0 <= left <= right < nums.length
 // At most 10^4 calls will be made to sumRange.
 
+// @ts-ignore
 class NumArray {
     private sum: number[];
 
